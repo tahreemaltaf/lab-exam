@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    position: sticky;
+    width: 100%;
+    background-image: url(bgau.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+
+    position: sticky;
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+width: 200px;
+float: left;
+height: 70px;
+}
+
+.logo{
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+padding-left: 20px;
+float: left;
+padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ul li{
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;  
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul li a:hover{
+    color: rgb(155, 155, 231);
+}
+.search{
+    width: 330px;
+    float: right;
+    margin-right: 400px;
+    
+
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px rgb(255, 251, 251);
+    margin-top: 13px;
+    color: rgb(8, 8, 8);
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 75px;
+    height: 30px;
+    background: rgb(8, 8, 8);
+    border: 2px black;
+    margin-top: 13px;
+    color: rgb(247, 242, 242);
+    font-size: 15px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.societal-mission {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    padding: 138px;
+    text-align: center;
+  }
+  
+  .societal-mission h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .societal-mission p {
+    font-size: 30px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .societal-mission button {
+    background-color: #1a6cc4;
+    font-size: 30px;
+    color: white;
+    padding: 20px 40px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .campus-news-section {
+    opacity: 0; 
+    transition: opacity 0.5s ease-in-out; 
+    position: relative;
+    top: 10px; 
+    width: 100%;
+    text-align: center;
+  }
+  
+  .campus-news-section:hover,
+  .campus-news-section:active {
+    opacity: 1;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    padding: 20px;
+}
+
+.box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.academic-section {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .academic-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .academic-boxes {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .academic-box {
+    width: 300px;
+    margin-bottom: 30px;
+  }
+  
+  .academic-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .more-about-academics{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+  }
+  
+  .schools-navbar {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+  }
+  
+  .schools-navbar h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .school-list {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+  }
+  
+  .school-list li {
+    margin-bottom: 5px;
+  }
+
+  
+  .blur-on-scroll-section {
+    position: relative; 
+    height: 500px; 
+    overflow: hidden; 
+  }
+  
+  .background-image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    transition: filter 1s ease-in-out;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .content-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .person-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .blur-on-scroll-section:hover .background-image-container {
+    filter: blur(5px);
+  }
+
+
+  .upcoming-events {
+    background-color: #f5f5f5;
+    padding: 40px 20px; 
+    text-align: center;
+  }
+  
+  .upcoming-events h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .event-boxes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+  }
+  
+  .event-box {
+    position: relative;
+    width: 25%; 
+    margin-bottom: 30px;
+  }
+  
+  .event-box img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover;
+  }
+  
+  .event-box p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 20px;
+    text-align: centere;
+  }
+  .more-events {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  
+  
+  .healthcare-section {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .healthcare-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .healthcare-boxes {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .healthcare-box {
+    width: 300px;
+    margin-bottom: 30px;
+  }
+  
+  .healthcare-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .more-about-healthcare {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+  }
+  .campus-life-section {
+    text-align: center; /* Center align all content */
+    padding: 40px 0;
+  }
+  
+  .campus-life-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .campus-life-section p {
+    margin-bottom: 40px;
+  }
+  
+  .campus-life-boxes {
+    display: flex; /* Arrange boxes horizontally */
+    justify-content: space-around; /* Distribute boxes evenly */
+  }
+  
+  .campus-life-box {
+    width: 300px; /* Adjust width as needed */
+    margin-bottom: 30px;
+  }
+  
+  .campus-life-box img {
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .more-about-campus-life {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+  }
+  .athletics-section {
+    text-align: center; 
+    padding: 40px 0;
+  }
+  
+  .athletics-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .athletics-section p {
+    margin-bottom: 40px;
+  }
+  
+  .athletics-boxes {
+    display: flex; /* Arrange boxes horizontally */
+    justify-content: space-around; /* Distribute boxes evenly */
+  }
+  
+  .athletics-box {
+    width: 300px; /* Adjust width as needed */
+    margin-bottom: 30px;
+  }
+  
+  .athletics-box img {
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .more-about-athletics {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+  }
+  .admission-section {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .admission-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .admission-section p {
+    margin-bottom: 40px;
+  }
+  
+  .admission-image-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .admission-image-wrapper img {
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .more-about-admission {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+  }
+  .footer {
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text */
+    padding: 40px 0;
+  }
+  
+  .footer h3 {
+    margin-bottom: 20px;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer li {
+    margin-bottom: 10px;
+  }
+  
+  .footer a {
+    color: #fff; /* White links */
+    text-decoration: none;
+  }
+  
+  .footer p.copyright {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+  }
+      
+  
